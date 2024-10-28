@@ -1,0 +1,69 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Main Section */
+  .main-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    gap: 20px;
+  }
+  
+  .section {
+    flex: 1;
+    position: relative;
+  }
+  
+  /* .section img {
+    width: 100%;
+    height: auto;
+  } */
+  
+  .section .content {
+    padding: 10px;
+  }
+  
+  .section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  /* Categories Section */
+  .categories-section {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .categories-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
